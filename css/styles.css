@@ -1,0 +1,62 @@
+body{
+	font-family:Verdana, Geneva, sans-serif,微軟正黑體;
+	font-size:15px;
+	margin:0px;
+	padding:0px;
+	/*background:url('../images/bg.png');*/
+}
+
+#wrapper{
+	width: 80%;
+    margin: 3% 0%;
+    padding: 0px ;
+	margin-left:auto;
+	margin-right:auto;
+	overflow: hidden;
+	border-radius:0px 0px 5px 5px;	
+	border: 1px solid #ddd;
+	background:#fff;
+}
+#header{
+   background:#f1f1f1;
+   padding:5px 10px;
+   clear:both;
+   position:relative;
+}
+
+#content{
+   padding:0.5% 1%;
+   background:#fff;
+}
+
+#footer{
+	width:100%;
+	text-align:center;
+	clear:both;
+	padding:0.5% 0px;
+	margin-top:15px;
+	color:#666;
+}
+
+a{
+  text-decoration: none;
+}
+tr:nth-child(even){background:#f1f1f1;}
+ #loading {   
+      width: 160px;   
+      height: 60px;
+	  background-color:#FFF;
+      position: absolute;   
+      left: 50%;   
+      top: 50%;   
+      margin-top: -50px;   
+      margin-left: -100px;   
+     text-align: center;   
+}
+.ui-datepicker-month{color:#000}
+
+
+@media screen and (max-width: 768px) {
+#wrapper{width:100%}
+
+}
