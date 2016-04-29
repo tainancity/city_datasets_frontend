@@ -5,6 +5,7 @@ if (!isset($_SESSION)) {
 }
 set_time_limit(300);
 include('connections/DB.php');
+
 /*
 擷取資料表資料並匯入資料庫
 */

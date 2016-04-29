@@ -3,9 +3,12 @@ include('connections/DB.php');
 switch($_GET[op])
 {
 	case "edit_organ_fname":
+		if($_GET[e]!="")
+		{
 		$query   = "update organizations set o_organ_fname='".$_GET[e]."' where o_organ_fname='".$_GET[s]."' ";
 		$result  = $db->query($query);
 		//echo $query;
+		}
 	break;
 	
 	case "edit_fname":
